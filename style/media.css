@@ -1,0 +1,258 @@
+@media(max-width: 1400px) {
+
+    .main__services-drivetrendo,
+    .main__services-walktrendo {
+        margin-right: 0;
+    }
+
+    .main__services-walktrendo {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .header__navbar {
+        flex-wrap: wrap;
+    }
+
+    .navbar .container {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 993px) {
+    .collapse:not(.show) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .carousel-item:nth-of-type(3) .main__carousel-img {
+        margin-right: 0px;
+    }
+
+    .carousel-item:nth-of-type(1) .main__carousel-img {
+        margin-right: 0px;
+    }
+
+    .carousel-item:nth-of-type(3) .main__carousel-img {
+        margin-right: 0px;
+    }
+
+    .carousel-item:nth-of-type(5) .main__carousel-img {
+        margin-right: 0px;
+    }
+
+    .carousel-item:nth-of-type(2) .main__carousel-img {
+        margin-left: 0px;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main__carousel-item {
+        flex-wrap: wrap;
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .main__carousel-title {
+        margin-top: 40px;
+    }
+
+    .main__about-content {
+        top: 115px;
+    }
+}
+
+@media(max-width: 769px) {
+
+    .footer__content {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .main__services-about {
+        margin-right: 0 !important;
+    }
+
+    .footer__contacts {
+        margin-top: 20px;
+    }
+
+    .main__how-services,
+    .main__how-tournaments,
+    .main__how-currency,
+    .main__how-availability,
+    .main__how-safe,
+    .main__carousel-item {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .main__how-tournaments,
+    .main__how-availability,
+    .main__carousel-item {
+        margin: 70px 0;
+    }
+
+    .main__availability-img {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .main__currency-about,
+    .main__tournaments-img {
+        margin-bottom: 30px;
+    }
+
+    .main__services-about,
+    .main__tournaments-about,
+    .main__currency-about,
+    .main__availability-about,
+    .main__safe-about {
+        text-align: center !important;
+    }
+
+}
+
+@media(max-width: 767px) {
+    .main__services-name {
+        font-size: 30px;
+        text-align: center;
+        left: 141px;
+    }
+
+    .main__services-descr {
+        top: 50px;
+    }
+}
+
+@media(max-width: 769px) {
+
+    .footer__content {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .main__services-about {
+        margin-right: 0 !important;
+    }
+
+    .footer__contacts {
+        margin-top: 20px;
+    }
+
+    .main__how-services,
+    .main__how-tournaments,
+    .main__how-currency,
+    .main__how-availability,
+    .main__how-safe,
+    .main__carousel-item {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .main__how-tournaments,
+    .main__how-availability,
+    .main__carousel-item {
+        margin: 70px 0;
+    }
+
+    .main__availability-img {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .main__currency-about,
+    .main__tournaments-img {
+        margin-bottom: 30px;
+    }
+
+    .main__services-about,
+    .main__tournaments-about,
+    .main__currency-about,
+    .main__availability-about,
+    .main__safe-about {
+        text-align: center !important;
+    }
+
+}
+
+@media(max-width: 545px) {
+    .main__services-walktrendo .main__services-descr {
+        top: 95px;
+    }
+
+    .main__services-descr {
+        font-size: 19px;
+    }
+
+    .main__about-title {
+        font-size: 49px;
+    }
+
+    .main__howitworks-carousel {
+        margin-top: 0;
+    }
+    .carousel-inner {
+        margin-top: 0;
+    }
+
+    .carousel-item:nth-of-type(3) .main__carousel-png {
+        width: 330px !important;
+    }
+
+
+    .carousel-item:nth-of-type(4) .main__carousel-png {
+        width: 290px !important;
+    }
+
+    .carousel-item:nth-of-type(5) .main__carousel-png {
+        width: 240px !important;
+    }
+
+    .main__about-content {
+        top: 50px;
+    }
+}
+
+@media(max-width: 992px) {
+    .collapse:not(.show) {
+        display: none !important;
+    }
+
+    .navbar .container {
+        justify-content: space-between !important;
+    }
+}
+
+@media(max-width: 375px) {
+    .main__service-play {
+        right: 15px;
+    }
+
+    .main__about-descr {
+        font-size: 14px;
+    }
+
+    .main__service-app {
+        left: 15px;
+    }
+
+    .footer__form-mail,
+    .footer__form-msg,
+    .footer__form-button {
+        width: 290px;
+    }
+}
+
+@media(max-width: 480px) {
+    .main__services-name {
+        left: 18px;
+    }
+}
